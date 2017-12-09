@@ -1,0 +1,29 @@
+{
+	"id": "nodebb-theme-lavender-cyborg",
+	"library": "../nodebb-theme-lavender/lib/theme.js",
+	"hooks": [
+		{
+			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas", "callbacked": true
+		},
+		{
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "static:app.preload", "method": "preinit"
+		},
+		{
+			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+		},
+		{
+			"hook": "filter:config.get", "method": "getConfig"
+		}
+	],
+	"staticDirs": {
+		"vendor": "../nodebb-theme-lavender/static/vendor"
+	},
+	"scripts": [
+		"../nodebb-theme-lavender/static/lib/lavender.js",
+		"../nodebb-theme-lavender/static/vendor/masonry.js",
+		"../nodebb-theme-lavender/static/vendor/imagesLoaded.js"
+	]
+}
