@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-lavender-cyborg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NodeBB skin-theme cyborg based on lavender",
   "main": "theme.less",
   "keywords": ["NodeBB", "nodebb-theme", "lavender"],
