@@ -1,0 +1,68 @@
+.category {
+	.category-tools {
+		background: none;
+		box-shadow: none;
+		border-bottom: 0;
+	}
+
+	.category-item {
+		background: #2b2b2b;
+		color: #8c8c8c;
+		a {
+			color: #c7c7c7;
+			&:hover {
+				color: #f5f5f5;
+			}
+		}
+		.category-profile-pic {
+			margin-left: 0;
+		}
+
+		.category-text {
+			p {
+				margin-bottom: 0;
+			}
+
+			small {
+				font-size: 12px;
+				a {
+					color: #909090;
+					&:hover {
+						color: #c7c7c7;
+					}
+				}
+				.timeago {
+					font-size: 11px;
+					font-style: italic;
+				}
+			}
+		}
+
+		.category-stat {
+			.human-readable-number {
+				    color: #c7c6c6;
+			}
+			&.replies {
+				.teaser-pic.user-icon {
+					border-radius: 100%;
+					margin-right: 5px;
+				}
+				.timeago {
+					font-size: 11px;
+					font-style: italic;
+				}
+				.no-replies {
+					font-size: 12px;
+					font-style: italic;
+
+					a {
+						color: #909090;
+						&:hover {
+							color: #c7c7c7;
+						}
+					}
+				}
+			}
+		}
+	}
+}

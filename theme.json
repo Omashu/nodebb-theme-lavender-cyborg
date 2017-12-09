@@ -1,0 +1,7 @@
+{
+	"id": "nodebb-theme-lavender-cyborg",
+	"name": "Lavender Cyborg",
+	"description": "Lavender Cyborg Skin",
+	"url": "https://github.com/Omashu/nodebb-theme-lavender-cyborg",
+	"baseTheme": "nodebb-theme-lavender"
+}
