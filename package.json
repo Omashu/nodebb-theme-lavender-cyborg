@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "NodeBB skin-theme cyborg based on lavender",
   "main": "theme.less",
-  "keywords": [
-  ],
-  "license": "MIT"
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "nodebb-theme-lavender": "^5.0.0"
+  }
 }
