@@ -32,7 +32,8 @@
 	<!-- IF useCustomCSS -->
 	<style type="text/css">{{customCSS}}</style>
 	<!-- END -->
-
+	
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 </head>
 
 <body class="{bodyClass} skin-{config.bootswatchSkin}">
