@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "NodeBB skin-theme cyborg based on lavender",
   "main": "theme.less",
-  "keywords": [],
+  "keywords": ["NodeBB", "nodebb-theme", "lavender"],
   "license": "MIT",
+  "homepage": "https://github.com/Omashu/nodebb-theme-lavender-cyborg#readme",
   "dependencies": {
     "nodebb-theme-lavender": "^5.0.0"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omashu/nodebb-theme-lavender-cyborg.git"
   }
 }
